@@ -1,4 +1,4 @@
-# Zanah Flask App
+# Zanah Data Visual App (under dev)
 
 ## Table of contents
 * [General info](#general-info)
@@ -6,7 +6,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is a simple python flask blogging app 
+
 	
 ## Technologies
 Project is created with:
@@ -14,16 +14,12 @@ Project is created with:
 * VS Code 
 * Python version: 3.6.9
 * Flask version: 1.1.2
-* Werkzeug library version: 1.0.1
-* MySQl database version: 14.14
+* 
 	
 ## Setup
 To run this project:
 1. Create database and tables 
-* articles table  schema 
-    CREATE TABLE articles (id INT(11) AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255), author VARCHAR(100), body TEXT, create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
-* users table schema:
-    CREATE TABLE users(id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), username VARCHAR(100), password VARCHAR(100), register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP );
+* 
 
 
 2. Create and activate venv
@@ -39,4 +35,4 @@ To run this project:
 
     $ flask run
 
-                                _enjoy, code is good._ 
+                                
