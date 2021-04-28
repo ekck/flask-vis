@@ -11,7 +11,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-def init_app():
+def create_app():
     # """ constructing the core app."""
     app = Flask(__name__, instance_relative_config=False)
     app.config.from_object('config.Config')
@@ -20,6 +20,7 @@ def init_app():
 
     with app.app_context():
         from . import routes 
+
         db.create_all() # create tables for our data models
 
         return app
